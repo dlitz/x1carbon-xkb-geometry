@@ -94,7 +94,7 @@ xkb_geometry "common" {
 		row {
 			top = 80;
 			keys {
-				<LCTL>, { <FN>, "LCTL" }, <LWIN>, <LALT>,
+				<FN>, { <LCTL>, "LCTL" }, <LWIN>, <LALT>,
 				{ <SPCE>, "SPCE" },
 				<RALT>, <PRSC>, <RCTL>
 			};
