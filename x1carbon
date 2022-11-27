@@ -2,6 +2,7 @@
 // Geometry specification for Lenovo ThinkPad X1 Carbon
 
 xkb_geometry "common" {
+    description = "Lenovo ThinkPad X1 Carbon";
     width = 302;
     height = 123;
     key.color = "grey80";
