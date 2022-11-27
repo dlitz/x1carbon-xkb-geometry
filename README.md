@@ -41,3 +41,14 @@ As I understand, XKB configuration can be quite different on different operating
     EndSection
     ```
     Note that you will also have to specify the layouts you want to include. You can have a look at the [ArchLinux Wiki for XKB](https://wiki.archlinux.org/index.php/Xorg/Keyboard_configuration) for an overview about setting other possible options here.
+
+5. To make the layout show up in GUI keyboard selection tools, open `/usr/share/X11/xkb/rules/evdev.xml` and add the following section:
+    ```
+    <model>
+      <configItem>
+        <name>x1carbon</name>
+        <description>Lenovo Thinkpad X1 Carbon</description>
+        <vendor>Lenovo (previously IBM)</vendor>
+      </configItem>
+    </model>
+    ```
